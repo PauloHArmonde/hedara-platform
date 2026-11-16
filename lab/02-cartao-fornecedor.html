@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Laboratório Hedara — HTML e CSS Puro</title>
+
+  <!-- PARTE 1: A MAQUIAGEM (CSS) -->
+  <!-- Aqui damos aparência às etiquetas que criamos lá embaixo -->
+  <style>
+    body {
+      background-color: #f4f4f0; /* Fundo papel editorial */
+      font-family: Georgia, serif; /* Fonte estilo revista/jornal */
+      padding: 40px;
+    }
+
+    .cartao-fornecedor {
+      background-color: #111111; /* Fundo preto */
+      color: #ffffff;            /* Letra branca */
+      max-width: 500px;          /* Largura máxima do cartão */
+      padding: 32px;             /* Espaço interno para o texto respirar */
+      border: 2px solid #d4af37; /* Borda dourada */
+    }
+
+    .selo {
+      color: #d4af37;            /* Letra dourada */
+      font-size: 12px;           /* Tamanho da letra */
+      letter-spacing: 2px;       /* Espaço entre as letras */
+      text-transform: uppercase; /* Tudo em maiúsculo */
+    }
+
+    h1 {
+      font-size: 28px;
+      margin-top: 12px;
+      margin-bottom: 8px;
+    }
+
+    .cidade {
+      color: #aaaaaa;
+      font-size: 14px;
+    }
+
+    .botao {
+      display: inline-block;
+      margin-top: 24px;
+      padding: 12px 20px;
+      background-color: #d4af37;
+      color: #111111;
+      text-decoration: none;
+      font-family: Arial, sans-serif;
+      font-weight: bold;
+      font-size: 13px;
+    }
+  </style>
+</head>
+
+<!-- PARTE 2: O CONTEÚDO (HTML) -->
+<!-- Aqui colocamos apenas os textos e links, sem nos preocupar com cor -->
+<body>
+
+  <div class="cartao-fornecedor">
+    <span class="selo">✦ Perfil Oficial Verificado</span>
+    <h1>Claudio Azevedo Fotografia</h1>
+    <p class="cidade">Fotografia Documental • Ipatinga, MG</p>
+    <p>Histórias reais contadas com luz natural e estética atemporal no Vale do Aço.</p>
+    <a href="#" class="botao">SOLICITAR ORÇAMENTO</a>
+  </div>
+
+</body>
+</html>
