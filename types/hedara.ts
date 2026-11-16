@@ -1,6 +1,10 @@
 // types/hedara.ts
 
 /**
+ * Primeira versão (v1) dos contratos de dados do Hedara.
+ * Estes tipos representam o modelo inicial do produto (MVP)
+ * e poderão evoluir conforme as regras de negócio forem validadas.
+ 
  * Define os dois níveis comerciais de um fornecedor na plataforma:
  * - FREE_PPL: Página Livre gerada automaticamente pelas citações das noivas.
  * - OFFICIAL_SUBSCRIPTION: Página Oficial ativada por assinatura mensal.
